@@ -6,6 +6,8 @@ O objetivo desse script é bloquear websites para você produzir mais ainda, com
 
 É recomendado executar o script com privilégios administrativos para correto funcionamento.
 
+Para alterar ou alimentar a lista de sites bloqueados, basta alterar o arquivo *blacklist.txt* e adicionar ou remover os sites de sua preferência.
+
 Para rodar: 
 ```python3 block.py block```
 
