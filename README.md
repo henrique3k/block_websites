@@ -14,8 +14,10 @@ LINUX EXTRA:
 
 Você pode criar uma função em seu `.bashrc` ou no `.zshrc` dependendo do seu setup para chamar o script mais facilmente]
 
-```bloquear-sites(){
+```
+bloquear-sites(){
   sudo python3 $HOME/dev/block-website/block.py $1
-}```
+}
+```
 
-inspirado pelo @CyberSecurityUP
+inspirado pelo trabalho do [@CyberSecurityUP](https://github.com/CyberSecurityUP/block-website)
