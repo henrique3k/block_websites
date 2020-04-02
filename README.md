@@ -8,6 +8,7 @@ O objetivo desse script é bloquear websites para você produzir mais ainda, com
 
 Para rodar: 
 ```python3 block.py block```
+
 ```python3 block.py unblock```
 
 LINUX EXTRA:
