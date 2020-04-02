@@ -1,5 +1,6 @@
 import sys
 import platform
+import pathlib
 
 class Block():
 
@@ -11,7 +12,9 @@ class Block():
             self.hosts_path = "/etc/hosts"
 
         self.redirect = '127.0.0.1'
-        self.website_list = ["www.facebook.com","facebook.com", "www.youtube.com", "web.whatsapp.com", "www.twitter.com", "www.instagram.com", "youtube.com", "twitter.com", "instagram.com"]
+
+        with open(f"{pathlib.Path().absolute()}/blacklist.txt") as file:
+            self.website_list = [line.strip() for line in file.readlines()]
 
 
     def block(self):
